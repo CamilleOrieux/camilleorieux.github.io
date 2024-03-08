@@ -1,19 +1,205 @@
-body{
-    background: rgb(14, 23, 69);
-    color :bisque;
-    font-family: sans-serif;
-    font-size: 15px;
+
+
+@font-face{
+    font-family: "bianzhidai Pearl";
+    src: url(bianzhidai-Pearl.woff) format("woff");
+   
 }
-h2{
-    color: rgb(114, 58, 39);
-    background: yellow;
+@font-face{
+    font-family: "bianzhidai_noBG-Pearl";
+    src: url("bianzhidai_noBG-Pearl.woff") format("woff");
+   
 }
-.home.chapo{
-    color: brown;
+@font-face{
+    font-family: "Ring";
+    src: url("Ring.woff") format("woff");
+   
 }
 
- .chapo{
-    font-size: 30px;
-}
 
+@font-face {
+    font-family: "elza", sans-serif;
+    font-weight: 150;
+    font-style: normal; ;
+    src: url();
+}
+@font-face {
+    font-family: "elza", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    src: url();
+}
+h1{
+    font-family: "Ring";
+    text-align: center;
+    font-size: 9.2vw;
+    margin: 0;
+    line-height: 0.8;
+    color: blue;
     
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+.intro {
+  
+    font-family: "elza", sans-serif;
+    font-style: italic;
+    src: url();
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 450;
+    color:blue;
+}
+
+
+
+
+
+.start {
+    text-align: left;
+    padding: 12px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+  
+
+}
+
+ul{
+    text-align: left;
+    padding: 12px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    font-size: 17px;
+    font-weight: 250;
+    margin-top: 0;
+}
+  
+
+header {
+    font-family: "elza";
+        
+    }
+    
+.header a {
+    text-decoration: none;
+    color: currentColor;
+    font-family: "bianzhidai Pearl", sans-serif;
+    font-size: 24px;   
+}
+
+body {
+    font-family: "elza", sans-serif;
+    font-size: 50px;
+    color: blue;
+    margin: 0;
+    cursor: url(LePointFolio.gif), auto;
+    min-height: 99vh;
+}
+.bis{
+    
+    align-self: center;
+    justify-self: center;
+   
+}
+
+
+.label.label>*{
+    font-weight: 280;
+    font-size: 20px;
+
+}
+
+
+.projets,.domaine,.numero{
+    font-size: 16px;
+    font-size: clamp(16px,4vw,25px);
+}
+
+.projets {
+    text-align: left;
+    padding: 20px;
+    font-family: "elza", sans-serif;
+    margin: 10px;
+    color: blue;
+
+    font-weight: 450;
+    text-wrap:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.domaine{
+    text-align: left;
+    padding: 20px;
+    font-family: "elza", sans-serif;
+    margin: 10px;
+    color: blue;
+    font-weight:450;
+}
+
+
+.numero {
+        text-align: right;
+        padding: 20px;
+        margin: 10px;
+        color: blue;
+        font-weight: 450;
+        font-family: "bianzhidai_noBG-Pearl"
+    }
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 220px 100px;
+    margin: 10px;
+    font-family: "elza", sans-serif;
+    text-align: left;
+    border-bottom: 0.5px solid blue;
+    text-decoration: none;
+    color: blue;
+    margin: 0 15px;
+    font-size: 15px;    
+    transition: 0.4s;
+    align-items: center;
+    
+}
+
+.grid.cat-edition:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.grid.cat-edition>*{
+    transition: 0.4s;
+}
+.grid.cat-edition:hover>*{
+    color:#fff;
+}
+
+
+
+.footer {
+    text-decoration: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: rgb(255, 255, 255);
+    padding: 4px;
+    text-align: center;
+    font-family: "elza";
+    font-size: 18px;
+    font-weight: 80;
+}
+
+
+img{
+    max-width: 100%;
+}
