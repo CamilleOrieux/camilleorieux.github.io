@@ -1,0 +1,19 @@
+body{
+    background: rgb(14, 23, 69);
+    color :bisque;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+h2{
+    color: rgb(114, 58, 39);
+    background: yellow;
+}
+.home.chapo{
+    color: brown;
+}
+
+ .chapo{
+    font-size: 30px;
+}
+
+    
