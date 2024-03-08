@@ -31,13 +31,15 @@
 }
 h1{
     font-family: "Ring";
-    text-align: center;
-    font-size: 9.2vw;
-    margin: 0;
+    text-align: left;
+    font-size: 9.0vw;
+    margin-top: 2vw;
+    margin-left: 10px;
     line-height: 0.8;
     color: blue;
     
 }
+
 a{
     text-decoration: none;
     color: blue;
