@@ -172,7 +172,7 @@ body {
 }
 
 .grid.cat-edition:hover{
-    background-color: yellow;
+    background-color: blue;
     cursor: pointer;
 }
 
