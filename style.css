@@ -11,6 +11,11 @@
    
 }
 @font-face{
+    font-family: "bianzhidai_noBG-Pearl";
+    src: url("bianzhidai_noBG-Pearl.woff") format("woff");
+   
+}
+@font-face{
     font-family: "Ring";
     src: url("Ring.woff") format("woff");
    
@@ -32,7 +37,7 @@
 h1{
     font-family: "Ring";
     text-align: left;
-    font-size: 3.0vw;
+    font-size: 9.0vw;
     margin-top: 2vw;
     margin-left: 10px;
     line-height: 0.8;
