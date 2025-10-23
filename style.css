@@ -75,20 +75,11 @@ a{
   
 
 }
-.fine {
-        
+.start .fine{
     font-family: "elza", sans-serif;
-    font-weight: 150;
-    font-style: normal; ;
-    src: url();
-     text-decoration: none;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 100px;
-    margin-bottom: 10px;
-    font-size: 17px;
-    font-weight: 450;
-    color:blue;
+    font-weight: 300
+    opacity: 0.8;
+        
 
 }
 
