@@ -57,7 +57,7 @@ a{
     grid-template-columns: 1fr 1fr;
     margin-top: 100px;
     margin-bottom: 10px;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 450;
     color:blue;
 }
@@ -70,7 +70,7 @@ a{
         
     font-family: 'Elza', sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 450;
     text-align: left;
     padding: 12px;
     margin-bottom: 30px;
@@ -81,8 +81,8 @@ a{
 .start .fine {
   font-weight: 300; /* ou 200 selon les graisses disponibles */
   font-style: normal;
-  font-size: 12px;
-  opacity: 0.8; /* optionnel, pour un effet plus léger visuellement */
+  font-size: 14px;
+  opacity: 0.5; /* optionnel, pour un effet plus léger visuellement */
 }
         
 
