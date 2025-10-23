@@ -51,7 +51,6 @@ a{
 .intro {
   
     font-family: "elza", sans-serif;
-    font-style: italic;
     src: url();
     text-decoration: none;
     display: grid;
@@ -82,6 +81,7 @@ a{
 .start .fine {
   font-weight: 300; /* ou 200 selon les graisses disponibles */
   font-style: normal;
+  font-size: 12px;
   opacity: 0.8; /* optionnel, pour un effet plus léger visuellement */
 }
         
