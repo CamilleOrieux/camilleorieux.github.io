@@ -68,6 +68,9 @@ a{
 
 
 .start {
+        
+    font-family: 'Elza', sans-serif;
+    font-weight: 400;
     text-align: left;
     padding: 12px;
     margin-bottom: 30px;
@@ -75,15 +78,10 @@ a{
   
 
 }
-.fine{
-    font-family: "elza", sans-serif;
-    font-weight: 150;
-    font-style: normal; ;
-    src: url();
-    text-align: left;
-    padding: 12px;
-    margin-bottom: 30px;
-    margin-left: 100px;
+.start .fine {
+  font-weight: 300; /* ou 200 selon les graisses disponibles */
+  opacity: 0.8; /* optionnel, pour un effet plus léger visuellement */
+}
         
 
 }
