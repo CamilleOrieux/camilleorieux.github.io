@@ -79,10 +79,10 @@ a{
 
 }
 .start .fine {
-  font-weight: 300; /* ou 200 selon les graisses disponibles */
+  font-weight: 200; /* ou 200 selon les graisses disponibles */
   font-style: normal;
-  font-size: 18px;
-  opacity: 0.5; /* optionnel, pour un effet plus léger visuellement */
+  font-size: 14px;
+  opacity: 0.8; /* optionnel, pour un effet plus léger visuellement */
 }
         
 
