@@ -75,10 +75,15 @@ a{
   
 
 }
-.start .fine{
+.fine{
     font-family: "elza", sans-serif;
-    font-weight: 300
-    opacity: 0.8;
+    font-weight: 150;
+    font-style: normal; ;
+    src: url();
+    text-align: left;
+    padding: 12px;
+    margin-bottom: 30px;
+    margin-left: 100px;
         
 
 }
